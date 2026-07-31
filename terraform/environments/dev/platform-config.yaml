@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: platform-config
+  namespace: platform
+data:
+  APP_ENV: "dev"
+  APP_NAME: "enterprise-cloud-security-platform"
+  LOG_LEVEL: "INFO"
